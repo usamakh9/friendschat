@@ -62,7 +62,7 @@ if prompt := st.chat_input("Type a message..."):
 
         try:
             stream = client.chat.completions.create(
-                model="openai/gpt-oss-20b", # Very smart, open source model
+                model="allam-2-7b", # Very smart, open source model
                 messages=messages_payload,
                 temperature=0.7,
                 max_tokens=1024,
